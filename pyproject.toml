@@ -1,0 +1,8 @@
+[project]
+name = "azbatch_autoscaler"
+version = "0.1.0"
+dependencies = [
+    "azure-batch~=13.0.0",
+    "azure-common~=1.1.28",
+    "azure-identity~=1.12.0"
+]
