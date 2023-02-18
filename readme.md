@@ -1,5 +1,7 @@
 # Batch Pool Scaling Utility
 
+[![Python package](https://github.com/utkarshayachit/azbatch_autoscaler/actions/workflows/python-package.yml/badge.svg)](https://github.com/utkarshayachit/azbatch_autoscaler/actions/workflows/python-package.yml)
+
 Azure Batch provides the ability to rescale pools automatically. However, currently the pool autoscaling script cannot
 determine how many spot instances in the pool have been preempted. Thus, a use-case where one wants to update the target
 dedicated node count of a pool based on number of spot nodes preempted is not possible. This utility provides a solution.
